@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Search" />
+        <item
+            android:id="@+id/newnote"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Add New Note"/>
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/emailus"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="Email" />
+            <item
+                android:id="@+id/Feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
