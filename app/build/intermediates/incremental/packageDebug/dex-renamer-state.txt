@@ -1,4 +1,4 @@
-#Sat Jun 10 17:06:09 IST 2017
+#Sat Jun 10 17:22:43 IST 2017
 base.0=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_801836131041fe1368a714cba17951e3a625186d
 renamed.1=classes.dex
 renamed.0=classes2.dex
