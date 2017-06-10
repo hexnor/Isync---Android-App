@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hex.hexnor.isync.Feedback">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="317dp"
+        android:layout_height="404dp"
+        android:ems="10"
+        android:hint="Enter Your Feedback "
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="37dp"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="447dp" />
+</android.support.constraint.ConstraintLayout>

@@ -64,8 +64,9 @@ public class Login extends AppCompatActivity {
                                     if(status.equals("true")){
                                         Intent i=new Intent(Login.this,Profile.class);
                                         Bundle b=new Bundle();
-                                        b.putString("Emailid",u);
+                                        b.putString("email",u);
                                         b.putString("token",token);
+                                        b.putString("username",jsonObject.getString("username"));
                                         i.putExtras(b);
                                         startActivity(i);
                                         Toast.makeText(Login.this, "Succesfully logged in", Toast.LENGTH_SHORT).show();
