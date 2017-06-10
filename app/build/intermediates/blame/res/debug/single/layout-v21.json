@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/layout-v21/notification_action.xml"
+    }
+]

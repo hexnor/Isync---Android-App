@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]

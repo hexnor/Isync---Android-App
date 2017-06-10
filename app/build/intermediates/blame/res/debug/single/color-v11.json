@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

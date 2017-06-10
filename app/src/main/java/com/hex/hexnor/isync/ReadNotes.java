@@ -123,25 +123,25 @@ public class ReadNotes extends AppCompatActivity {
                 b.putString("username",bundle.getString("username"));
                 i.putExtras(b);
                 startActivity(i);
-                Toast.makeText(ReadNotes.this, "Clicked delete", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(ReadNotes.this, "Clicked delete", Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     private void delete(final String pk) {
 
-        String url = "http://codersarena.me:8080/api/delete";
+        String url = "http://isyncweb.herokuapp.com/api/delete";
         RequestQueue requestQueue = Volley.newRequestQueue(ReadNotes.this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
 
-                Toast.makeText(ReadNotes.this, "Deleted"+response, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(ReadNotes.this, "Deleted"+response, Toast.LENGTH_SHORT).show();
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
 
 
             }
@@ -169,7 +169,7 @@ public class ReadNotes extends AppCompatActivity {
     }
 
     private void update() {
-        String url = "http://codersarena.me:8080/api/update";
+        String url = "http://isyncweb.herokuapp.com/api/update";
         RequestQueue requestQueue = Volley.newRequestQueue(ReadNotes.this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
@@ -196,7 +196,7 @@ public class ReadNotes extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
 
 
             }
@@ -239,7 +239,7 @@ public class ReadNotes extends AppCompatActivity {
 
 
     private void setdata() {
-        String url = "http://codersarena.me:8080/api/show/"+pk+"/";
+        String url = "http://isyncweb.herokuapp.com/api/show/"+pk+"/";
         RequestQueue requestQueue = Volley.newRequestQueue(ReadNotes.this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
@@ -256,10 +256,10 @@ public class ReadNotes extends AppCompatActivity {
                     try{
                         d=AESCrypt.encrypt(b.getString("token"),d);
                         String Enc=AESCrypt.decrypt(b.getString("token"),d);
-                        Toast.makeText(ReadNotes.this,Enc , Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(ReadNotes.this,Enc , Toast.LENGTH_SHORT).show();
                     }
                     catch (Exception e){
-                        Toast.makeText(ReadNotes.this, "Exception occured "+ e.toString(), Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(ReadNotes.this, "Exception occured "+ e.toString(), Toast.LENGTH_SHORT).show();
                     }
 
 
@@ -271,7 +271,7 @@ public class ReadNotes extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(ReadNotes.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
             }
         }) {
             @Override

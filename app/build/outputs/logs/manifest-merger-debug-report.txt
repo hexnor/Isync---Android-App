@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:6:22-77
+application
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:8:5-39:19
+MERGED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/23dc3390d863a49bf893c5fb0af200f31c94e102/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/1b4bbaa2b1320786f2523d69ce332227cd66f511/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /home/hexnor/.android/build-cache/0a035d846ba62ad3fbc020dcc3dc553281d4eee3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hexnor/.android/build-cache/4a0f86b50d09b6996f6d49af4253f65a1bbfd6e6/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/hexnor/.android/build-cache/5913de06274bb865ca730dd54109dec7d777da51/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/hexnor/.android/build-cache/7cc11bbeeba226a8fe478b146c2dbfa155441ea5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/hexnor/.android/build-cache/e82c73158b050454b35d7dc166dd8432488d5846/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/hexnor/.android/build-cache/cb5cfd8e2c763657660648c19c99e2c16c0412b4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/hexnor/.android/build-cache/f9c215ee30bf589faacdd62508016f673154d822/output/AndroidManifest.xml:29:5-20
+MERGED from [com.scottyab:aescrypt:0.0.1] /home/hexnor/.android/build-cache/1ab7b75b1f16a019318c9d59ed8399535c1db1ce/output/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/hexnor/.android/build-cache/2095e8b81bba707d203274775600424d3d1a407e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.0] /home/hexnor/.android/build-cache/f671ddffa0ccc38d834dcfdc1f446e796d554117/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/hexnor/.android/build-cache/73081d1fbb6993bd1d6dd3869518c0b228e2c172/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/hexnor/.android/build-cache/072b1ef600cda746a0042086b03bc9d938ba4081/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.hex.hexnor.isync.Profile
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:17:13-36
+intent-filter#android.intent.action.MAIN
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:21:25-66
+activity#com.hex.hexnor.isync.Login
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:25:9-33:20
+	android:noHistory
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:27:13-60
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:25:19-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:28:13-32:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.hex.hexnor.isync.Register
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:34:9-36:62
+	android:noHistory
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:36:13-60
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:34:19-43
+activity#com.hex.hexnor.isync.ReadNotes
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:37:9-48
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:37:19-44
+activity#com.hex.hexnor.isync.Contentadd
+ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:38:9-49
+	android:name
+		ADDED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml:38:19-45
+uses-sdk
+INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/23dc3390d863a49bf893c5fb0af200f31c94e102/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/1b4bbaa2b1320786f2523d69ce332227cd66f511/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /home/hexnor/.android/build-cache/0a035d846ba62ad3fbc020dcc3dc553281d4eee3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/hexnor/.android/build-cache/4a0f86b50d09b6996f6d49af4253f65a1bbfd6e6/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] /home/hexnor/.android/build-cache/5913de06274bb865ca730dd54109dec7d777da51/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/hexnor/.android/build-cache/1a33d2551810af7a7dfd1957dd04530667e35edd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.0] /home/hexnor/.android/build-cache/7cc11bbeeba226a8fe478b146c2dbfa155441ea5/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/hexnor/.android/build-cache/e82c73158b050454b35d7dc166dd8432488d5846/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/hexnor/.android/build-cache/cb5cfd8e2c763657660648c19c99e2c16c0412b4/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/hexnor/.android/build-cache/f9c215ee30bf589faacdd62508016f673154d822/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.scottyab:aescrypt:0.0.1] /home/hexnor/.android/build-cache/1ab7b75b1f16a019318c9d59ed8399535c1db1ce/output/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/hexnor/.android/build-cache/2095e8b81bba707d203274775600424d3d1a407e/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:25.3.0] /home/hexnor/.android/build-cache/f671ddffa0ccc38d834dcfdc1f446e796d554117/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/hexnor/.android/build-cache/73081d1fbb6993bd1d6dd3869518c0b228e2c172/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /home/hexnor/.android/build-cache/072b1ef600cda746a0042086b03bc9d938ba4081/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hexnor/Current/Isync/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/23dc3390d863a49bf893c5fb0af200f31c94e102/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/hexnor/.android/build-cache/1b4bbaa2b1320786f2523d69ce332227cd66f511/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /home/hexnor/.android/build-cache/0a035d846ba62ad3fbc020dcc3dc553281d4eee3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/hexnor/.android/build-cache/1a33d2551810af7a7dfd1957dd04530667e35edd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/hexnor/.android/build-cache/7cc11bbeeba226a8fe478b146c2dbfa155441ea5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/hexnor/.android/build-cache/e82c73158b050454b35d7dc166dd8432488d5846/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/hexnor/.android/build-cache/cb5cfd8e2c763657660648c19c99e2c16c0412b4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/hexnor/.android/build-cache/f9c215ee30bf589faacdd62508016f673154d822/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/hexnor/.android/build-cache/2095e8b81bba707d203274775600424d3d1a407e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:gridlayout-v7:25.3.0] /home/hexnor/.android/build-cache/f671ddffa0ccc38d834dcfdc1f446e796d554117/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/hexnor/.android/build-cache/73081d1fbb6993bd1d6dd3869518c0b228e2c172/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/hexnor/.android/build-cache/072b1ef600cda746a0042086b03bc9d938ba4081/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] /home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/AndroidManifest.xml:26:9-47

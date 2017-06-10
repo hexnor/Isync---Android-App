@@ -1,5 +1,6 @@
 package com.hex.hexnor.isync;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Login extends AppCompatActivity {
+public class Login extends Activity {
 
     EditText Emailid;
     EditText Password;
@@ -47,8 +48,8 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 final String u = Emailid.getText().toString();
                 final String p = Password.getText().toString();
-                String url = "http://codersarena.me:8080/api/login";
-                Toast.makeText(Login.this, "Button pressed", Toast.LENGTH_SHORT).show();
+                String url = "http://isyncweb.herokuapp.com/api/login";
+              //  Toast.makeText(Login.this, "Button pressed", Toast.LENGTH_SHORT).show();
                         RequestQueue requestQueue = Volley.newRequestQueue(Login.this);
                         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                             @Override
@@ -58,7 +59,7 @@ public class Login extends AppCompatActivity {
                                 try {
                                     JSONObject jsonObject = new JSONObject(response);
 
-                                    Toast.makeText(Login.this,jsonObject.toString(), Toast.LENGTH_SHORT).show();
+                                   // Toast.makeText(Login.this,jsonObject.toString(), Toast.LENGTH_SHORT).show();
                                     String status=jsonObject.getString("login");
                                     String token=jsonObject.getString("token");
                                     if(status.equals("true")){
@@ -72,8 +73,8 @@ public class Login extends AppCompatActivity {
                                         Toast.makeText(Login.this, "Succesfully logged in", Toast.LENGTH_SHORT).show();
 
                                     }else
-                                        Toast.makeText(Login.this, "Error" +
-                                                "", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(Login.this,
+                                                "WRONG CREDENTIALS", Toast.LENGTH_SHORT).show();
 
 
                                 } catch (JSONException e) {
@@ -84,7 +85,7 @@ public class Login extends AppCompatActivity {
                         }, new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError volleyError) {
-                                Toast.makeText(Login.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
+                               // Toast.makeText(Login.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
 
                             }
                         }) {

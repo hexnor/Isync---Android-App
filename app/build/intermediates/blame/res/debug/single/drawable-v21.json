@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+    }
+]

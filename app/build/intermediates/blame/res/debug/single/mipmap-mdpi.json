@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/back.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/back.png"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/back2.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/back2.png"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/trash.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/trash.png"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/sno.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/sno.png"
+    },
+    {
+        "merged": "/home/hexnor/Current/Isync/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/hexnor/Current/Isync/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

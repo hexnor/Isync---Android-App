@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/f9c215ee30bf589faacdd62508016f673154d822/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_98f901a83596ff8b72144a3ebe5fde532fdaa97a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hexnor/Current/Isync/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b454f42814c50e2b65c788feaad7fe8bdc13f24e">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c50c63fa40b4522cc9afec2675683d2d8f38fa35/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/1a33d2551810af7a7dfd1957dd04530667e35edd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_79367f597f79f5056fdb5c7f5110f0ce9dd3b400.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/e82c73158b050454b35d7dc166dd8432488d5846/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_78a88b41afc7555bdc0aeeee060333cc1c1946e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/5913de06274bb865ca730dd54109dec7d777da51/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_afbf0a1ba72623b8d6e4cb1a3b4a5d3c056e10da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_5b668815aaf05eb57b61f844dad154db94065cc9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hexnor/.android/build-cache/2095e8b81bba707d203274775600424d3d1a407e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_891529b40d7d868afce7359694e103aaadb55a1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/d394bb09c8deee02497810b7522f567c1fe328b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_9ea5a9982e6cb76825c9461359157ee7e3a86bf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/7cc11bbeeba226a8fe478b146c2dbfa155441ea5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_0e46016e26d737b1064df2bc78b0406fe581920c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/2fea87dcde046318b74a5fb5d2f8b29a190f823b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_d69ed530050e7752eaec9d87b410f0e5529abadb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/072b1ef600cda746a0042086b03bc9d938ba4081/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_a9f7ee003a938e367f153d782817d8fb2d4f70e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/23dc3390d863a49bf893c5fb0af200f31c94e102/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_dfb00cfc380a3a6c0b1dfcecae1fcd532939d272.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/73081d1fbb6993bd1d6dd3869518c0b228e2c172/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_f69d9cc9cf7780a1aa045c0b372b37e2c4606f5c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hexnor/.android/build-cache/f671ddffa0ccc38d834dcfdc1f446e796d554117/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5d23793df1e17be9a5ca6b9f2046ce27b563060">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a8ef4dda8f330c94f8889a60d98ccbe8580e047/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hexnor/Current/Isync/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_801836131041fe1368a714cba17951e3a625186d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/1b4bbaa2b1320786f2523d69ce332227cd66f511/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_d81f2dab74058d1ae62873aa29699c45f13b3aaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/0a035d846ba62ad3fbc020dcc3dc553281d4eee3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_767e938f226cecff7447ea4c9f181a0e1f26f45b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/cb5cfd8e2c763657660648c19c99e2c16c0412b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_b7ca8790aa20c4b2e57a35c33c1d2cba3d78945e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hexnor/.android/build-cache/6a513c3f6f1aa25a37e2b097cd037d896a97707b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/home/hexnor/Current/Isync/app/build/intermediates/pre-dexed/debug/classes_0da7a793aa4c48e417260368271bf16883f1f9a0.jar" />
+    </item>
+
+</items>

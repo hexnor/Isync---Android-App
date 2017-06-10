@@ -1,0 +1,4 @@
+#Sat Jun 10 14:47:32 IST 2017
+base.0=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

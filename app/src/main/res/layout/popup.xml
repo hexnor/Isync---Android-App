@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/popup_element"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+android:orientation="vertical"
+android:padding="10sp"
+    android:weightSum="1">
+
+<TextView
+    android:id="@+id/txtView"
+    android:layout_width="312dp"
+    android:layout_height="237dp"
+    android:padding="10dp"
+    android:maxLines="30"
+    android:layout_marginTop="5sp"
+    android:layout_margin="20dp"
+    android:background="@mipmap/back4"
+    android:textColor="#FFF"
+    android:textAlignment="center"
+    android:text="\n\n
+    ISYNC\n
+    --------------------------------------------------\n
+This is an simple note making app which is developed\n
+so as to easily organise the notes\n
+\n\n\n
+Developed by Yokesh Rana\n
+\n
+Btech CSE\n
+\n
+BIET JHANSI\n
+ --------------------------------------------------\n" />
+
+<Button
+    android:id="@+id/btn_close_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="#FFF"
+    android:background="#222"
+    android:text="Close" />
+
+</LinearLayout>

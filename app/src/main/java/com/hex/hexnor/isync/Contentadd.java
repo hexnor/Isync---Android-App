@@ -62,7 +62,7 @@ class Contentadd extends AppCompatActivity {
             public void onClick(View v) {
                 String title=editText.getText().toString();
                 String text=editText2.getText().toString();
-                String url = "http://codersarena.me:8080/api/add";
+                String url = "http://isyncweb.herokuapp.com/api/add";
                 RequestQueue requestQueue = Volley.newRequestQueue(Contentadd.this);
                 StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                     @Override

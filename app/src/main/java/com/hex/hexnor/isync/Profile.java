@@ -1,9 +1,14 @@
 package com.hex.hexnor.isync;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SimpleCursorAdapter;
+import android.view.Display;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,9 +18,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,6 +56,7 @@ public class Profile extends AppCompatActivity
     List<HashMap<String,String>> aList = new ArrayList<HashMap<String,String>>();
     String Email,Username,Token;
     SimpleAdapter  arrayAdapter;
+    TextView profileemail,profileusername;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +68,19 @@ public class Profile extends AppCompatActivity
         Username=bundle.getString("username");
         Token=bundle.getString("token");
 
-        Toast.makeText(this, "Welcome"+ Username +"      "+ Email , Toast.LENGTH_SHORT).show();
+        try{
+            //first inflate and then update
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View vi = inflater.inflate(R.layout.nav_header_main, null); //log.xml is your file.
+            profileemail= (TextView) vi.findViewById(R.id.profileemail);
+            profileusername= (TextView) vi.findViewById(R.id.profileusername);
+            profileemail.setText(Email);
+            profileusername.setText("Welcome "+Username);
+          }
+        catch (Exception e){
+            //Toast.makeText(this, ""+e, Toast.LENGTH_SHORT).show();
+        }
+//        Toast.makeText(this, "Welcome"+ Username +"      "+ Email , Toast.LENGTH_SHORT).show();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -138,7 +159,7 @@ public class Profile extends AppCompatActivity
     }
 
     private void setdata(final String option) {
-        String url = "http://codersarena.me:8080/api/show";
+        String url = "http://isyncweb.herokuapp.com/api/show";
         RequestQueue requestQueue = Volley.newRequestQueue(Profile.this);
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
@@ -171,7 +192,7 @@ public class Profile extends AppCompatActivity
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Toast.makeText(Profile.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(Profile.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
 
 
             }
@@ -190,37 +211,9 @@ public class Profile extends AppCompatActivity
         requestQueue.add(stringRequest);
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -228,8 +221,8 @@ public class Profile extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-      if (id == R.id.search) {
-
+      if (id == R.id.about) {
+          initiatePopupWindow();
         } else if (id == R.id.newnote) {
 
           Intent i=new Intent(Profile.this,Contentadd.class);
@@ -244,6 +237,7 @@ public class Profile extends AppCompatActivity
           email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "yokeshrana@gmail.com"});
           email.setType("message/rfc822");
           startActivity(Intent.createChooser(email, "Choose an Email client :"));
+
         } else if (id == R.id.Feedback) {
           Intent email = new Intent(Intent.ACTION_SEND);
           email.putExtra(Intent.EXTRA_EMAIL, new String[]{ "yokeshrana@gmail.com"});
@@ -257,6 +251,40 @@ public class Profile extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    private void initiatePopupWindow() {
+
+
+        try {
+// We need to get the instance of the LayoutInflater
+            LayoutInflater inflater = (LayoutInflater) Profile.this
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.popup,
+                    (ViewGroup) findViewById(R.id.popup_element));
+
+            Display display = getWindowManager().getDefaultDisplay();
+            Point size = new Point();
+            display.getSize(size);
+            int width = size.x;
+            int height = size.y;
+            final PopupWindow pwindo = new PopupWindow(layout, width-10, height-600, true);
+            pwindo.showAtLocation(layout, Gravity.CENTER_VERTICAL, 0,0);
+            Button btnClosePopup = (Button) layout.findViewById(R.id.btn_close_popup);
+            btnClosePopup.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    pwindo.dismiss();
+                }
+            });
+
+        } catch (Exception e) {
+            e.printStackTrace();}
+
+
+
+    }
+
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

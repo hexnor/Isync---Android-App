@@ -1,5 +1,6 @@
 package com.hex.hexnor.isync;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Register extends AppCompatActivity {
+public class Register extends Activity {
     EditText name,email,pass,cpass;
     Button btn;
 
@@ -44,9 +45,9 @@ public class Register extends AppCompatActivity {
                 em = email.getText().toString();
                 cp = cpass.getText().toString();
 
-                Toast.makeText(Register.this, em + ""+p + " "+cp, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(Register.this, em + ""+p + " "+cp, Toast.LENGTH_SHORT).show();
                 if (p.equals(cp)) {
-                    String url = "http://codersarena.me:8080/api/register";
+                    String url = "http://isyncweb.herokuapp.com/api/register";
                     Toast.makeText(Register.this, "Button pressed", Toast.LENGTH_SHORT).show();
                     RequestQueue requestQueue = Volley.newRequestQueue(Register.this);
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
@@ -54,10 +55,11 @@ public class Register extends AppCompatActivity {
                         public void onResponse(String response) {
 
 
-                            Toast.makeText(Register.this, response, Toast.LENGTH_SHORT).show();
+                          //  Toast.makeText(Register.this, response, Toast.LENGTH_SHORT).show();
                             try {
                                 JSONObject jsonObject = new JSONObject(response);
                                 if(jsonObject.get("created").equals("true")){
+                                    Toast.makeText(Register.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
                                     Bundle bundle=new Bundle();
                                     bundle.putString("token", (String) jsonObject.get("token"));
                                     bundle.putString("email",em);

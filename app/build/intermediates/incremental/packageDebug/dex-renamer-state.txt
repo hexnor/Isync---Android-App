@@ -1,0 +1,7 @@
+#Sat Jun 10 17:06:09 IST 2017
+base.0=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_801836131041fe1368a714cba17951e3a625186d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c50c63fa40b4522cc9afec2675683d2d8f38fa35/classes.dex
+base.1=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c50c63fa40b4522cc9afec2675683d2d8f38fa35
+file.0=/home/hexnor/Current/Isync/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_801836131041fe1368a714cba17951e3a625186d/classes.dex
